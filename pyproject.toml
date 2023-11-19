@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ethereally_hackatonchik"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = "^0.7.2"
+asyncpg = "^0.28.0"
+pytz = "^2023.3.post1"
+apscheduler = "^3.10.4"
+cachetools = "^5.3.1"
+aiogram = { version = "3.0.0b7", extras = ["fast", "redis"] }
+sqlalchemy = "^2.0.23"
+python-dotenv = "^1.0.0"
+aiogram-widgets = "^1.2.4"
+langchain = "^0.0.338"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
